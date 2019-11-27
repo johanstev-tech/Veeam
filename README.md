@@ -11,3 +11,4 @@ veeamUsername="TUUSERDEVBO"
 veeamPassword="TUPASSDEVBO"
 veeamRestServer="https://TUIPDESERVERVBO"
 veeamRestPort="4443" #Default Port
+*/30 * * * * /home/oper/veeamvbo.sh >> /var/log/veeamvbo.log 2>&1
